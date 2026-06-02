@@ -3,7 +3,7 @@ const os = require('os');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const APP_NAME = process.env.APP_NAME || 'DevOps CI/CD Node.js App';
+const APP_NAME = process.env.APP_NAME || 'Professional DevOps CI/CD Project - Updated Version';
 const STUDENT_NAME = process.env.STUDENT_NAME || 'M Salman';
 const APP_VERSION = process.env.APP_VERSION || '1.0.0';
 

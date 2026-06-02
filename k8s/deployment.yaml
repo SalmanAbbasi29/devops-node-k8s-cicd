@@ -22,7 +22,7 @@ spec:
             - containerPort: 3000
           env:
             - name: APP_NAME
-              value: "DevOps CI/CD Node.js App"
+              value: "Professional DevOps CI/CD Project - Updated Version"
             - name: STUDENT_NAME
               value: "M Salman"
             - name: APP_VERSION
