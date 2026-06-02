@@ -1,0 +1,21 @@
+{
+  "name": "devops-node-k8s-cicd",
+  "version": "1.0.0",
+  "description": "Node.js web app containerized with Docker and deployed to AWS EC2 Minikube using GitHub Actions CI/CD.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "keywords": ["nodejs", "docker", "kubernetes", "aws", "ecr", "minikube", "github-actions", "cicd"],
+  "author": "M Salman",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {}
+}
