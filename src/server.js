@@ -54,7 +54,7 @@ app.get('/', (req, res) => {
   <main class="card">
     <div class="badge">🚀 Live on AWS EC2 + Minikube</div>
     <h1>${data.appName}</h1>
-    <p class="subtitle">A professional DevOps project showing a Node.js app running inside Docker, stored in Amazon ECR, deployed on Kubernetes, and updated automatically through GitHub Actions CI/CD.</p>
+    <p class="subtitle">This Project is made by M Salman Abbasi .A professional DevOps project showing a Node.js app running inside Docker, stored in Amazon ECR, deployed on Kubernetes, and updated automatically through GitHub Actions CI/CD.</p>
     <section class="grid" aria-label="Application dynamic information">
       <div class="metric"><span>Current Timestamp</span><strong>${data.timestamp}</strong></div>
       <div class="metric"><span>Container ID / Hostname</span><strong>${data.containerId}</strong></div>
